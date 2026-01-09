@@ -229,8 +229,52 @@ nav ul, a{
 
 .brain-content .info ul li{
   margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+
+
 }
 
+
+#early-access{
+  max-width: 1360px;
+  background-color: #F7F6F2 ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  padding: 80px 40px;
+  margin-bottom: 120px;
+}
+
+#early-access .title h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+#early-access .title p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 24px;
+}
+
+#early-access .btn{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#early-access .nav-btn{
+  box-shadow: 0 10px 20px #0000002a;
+}
+
+#early-access p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
 
 
 
