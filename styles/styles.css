@@ -239,7 +239,8 @@ nav ul, a{
 
 #early-access{
   max-width: 1360px;
-  background-color: #F7F6F2 ;
+  background-color: #F7F6F2;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   text-align: center;
