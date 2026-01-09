@@ -78,6 +78,9 @@ nav ul, a{
   border: none;
   border-radius: 100px;
   margin-bottom: 16px;
+  display: flex;
+  gap: 6px;
+  
 }
 
 .banner-container h1{
@@ -163,7 +166,8 @@ nav ul, a{
   justify-content: ce;
   gap: 16px;
   padding: 24px;
-  box-shadow: 0 0 8px #0000000e;
+  background-color: white;
+  box-shadow: 0 0 8px #00000005;
 }
 
 .card-container .card img{
@@ -173,6 +177,67 @@ nav ul, a{
 
 
 }
+
+
+#brain{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  padding: 120px;
+  
+}
+
+
+.brain-content{
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  gap: 40px;
+
+}
+
+
+.brain-content .info h5{
+  color: #30B868;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.brain-content .info h2{
+  font-size: 48px;
+  color: #001931;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+.brain-content .info p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+.brain-content .info ul{
+  list-style: none;
+  /* list-style-image: url(../assets/CheckCircle.png); */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brain-content .info ul li{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
